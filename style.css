@@ -42,7 +42,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/hero.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 60%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -68,12 +68,29 @@ body, html {
     top: 30%;
     left: 50%;
     margin-top: 80px;
-    padding: 20%;
+    padding: 20% 20% 5% 20%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
   
-  /* Style the <hr> element */
-  hr {
-    margin: 20px;
-  } 
+/* Style the <hr> element */
+hr {
+  margin: 20px;
+} 
+
+/* Page Contact Styling */
+.pagecontact{
+  padding: 28px;
+  font-size: xx-small;
+}
+.pagecontact .h td{
+  font-size: xx-small;
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px #888888;
+} 
